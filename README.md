@@ -46,8 +46,8 @@ Notably! The symbol of 'o-' and 'u-' in **Code Link** indicate the official and 
 
 ### Humanml3D
 
-| ID  | Year | Venue | <div style="width: 70pt">Model<br/> (or Authors)</div>  | <div style="width: 60pt">R Precision<br/> Top-1 ↑</div> | <div style="width: 60pt">R Precision<br/> Top-2 ↑</div> | <div style="width: 60pt">R Preciion<br/> Top-3 ↑</div> | <div style="width: 60pt">FID ↓ </div> | <div style="width: 60pt">MM Dist ↓</div> | <div style="width: 90pt">MultiModality ↑</div> | <div style="width: 70pt">Diversity →</div> | <div style="width: 60pt">code</div> | - | 
-| :---: | :---: | :---: | :---------------------------: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| ID  | Year | Venue | <div style="width: 100pt">Model<br/> (or Authors)</div>  | <div style="width: 100pt">R Precision<br/> Top-1 ↑</div> | <div style="width: 100pt">R Precision<br/> Top-2 ↑</div> | <div style="width: 100pt">R Preciion<br/> Top-3 ↑</div> | <div style="width: 100pt">FID ↓ </div> | <div style="width: 100pt">MM Dist ↓</div> | <div style="width: 100pt">MultiModality ↑</div> | <div style="width: 100pt">Diversity →</div> | <div style="width: 100pt">code</div> | - | 
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | - | - | [TEMOS](#1001) | 0.424 $^{\pm.002}$ | 0.612 $^{\pm.002}$ | 0.722 $^{\pm.002}$ | 3.734 $^{\pm.028}$ | 3.703 $^{\pm.007}$ | 0.368 $^{\pm.018}$ | 8.973 $^{\pm.071}$ | - | - |
 | 2 | 2024 | CVPR | [MMM](#1001) | 0.504 $^{\pm.003}$ | 0.696 $^{\pm.003}$ | 0.794 $^{\pm.002}$ | 0.080 $^{\pm.003}$ | 2.998 $^{\pm.007}$ | 1.164 $^{\pm.041}$ | 9.411 $^{\pm.058}$ | [[o-pytorch]](https://github.com/exitudio/MMM/) | - |
 
