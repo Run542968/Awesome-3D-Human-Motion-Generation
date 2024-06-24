@@ -65,7 +65,7 @@ Notably! The symbol of 'o-' and 'u-' in **Code Link** indicate the official and 
 
 | ID  | Year | Venue | <div style="width: 90pt">Model<br/> (or Authors)</div>  | <div style="width: 60pt">R Precision<br/> Top-1 ↑</div> | <div style="width: 60pt">R Precision<br/> Top-2 ↑</div> | <div style="width: 60pt">R Preciion<br/> Top-3 ↑</div> | <div style="width: 60pt">FID ↓ </div> | <div style="width: 60pt">MM Dist ↓</div> | <div style="width: 90pt">MultiModality ↑</div> | <div style="width: 70pt">Diversity →</div> | <div style="width: 70pt">code</div> | - | 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| - | - | - | [Real Motion (GT)](#1006) | 0.424 $^{\pm.005}$ | 0.649 $^{\pm.006}$ | 0.779 $^{\pm.006}$ |  0.031 $^{\pm.004}$ | 2.788 $^{\pm.012}$ | - | 11.08 $^{\pm.097}$ | - | - |
+| - | - | - | [Real Motion (GT)](#1006) | $0.424^{\pm.005}$ | 0.649 $^{\pm.006}$ | 0.779 $^{\pm.006}$ |  0.031 $^{\pm.004}$ | 2.788 $^{\pm.012}$ | - | 11.08 $^{\pm.097}$ | - | - |
 | 1 | 2018 | NeurIPS | [Seq2Seq](#1001) | 0.103 $^{\pm.003}$ | 0.178 $^{\pm.005}$ | 0.241 $^{\pm.006}$ | 24.86 $^{\pm.348}$ | 7.960 $^{\pm.031}$ | - | 6.744 $^{\pm.106}$ | [`[u-pytorch]`](https://github.com/chahuja/language2pose) | - |
 | 2 | 2019 | 3DV | [Language2Pose](#1002) | 0.221 $^{\pm.005}$ | 0.373 $^{\pm.004}$ | 0.483 $^{\pm.005}$ | 6.545 $^{\pm.072}$ | 5.147 $^{\pm.030}$ | - | 9.073 $^{\pm.100}$ | [`[o-pytorch]`](https://github.com/chahuja/language2pose) | - |
 | 3 | 2021 | IEEE VR | [Text2Gesture](#1003) | 0.156 $^{\pm.004}$ | 0.255 $^{\pm.004}$ | 0.338 $^{\pm.005}$ | 12.12 $^{\pm.183}$ | 6.964 $^{\pm.029}$ | - | 9.334 $^{\pm.079}$ | [`[o-pytorch]`](https://github.com/UttaranB127/Text2Gestures) | - |
