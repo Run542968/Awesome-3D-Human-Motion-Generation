@@ -27,19 +27,19 @@ This repository is built mainly to track mainstream **Text-to-Motion** works, an
 ## Metrics
 
 ### Motion quality
-- **Frechet Inception Distance (FID)**\downarrow$ 
+- **Frechet Inception Distance (FID)** $\downarrow$ 
 	- FID is adopted as a principal metric to evaluate the feature distributions between the generated and real motions. The feature extractor employed is from [T2M].
 
 ### Motion diversity
-- **MultiModality (MModality)**\uparrow$ 
+- **MultiModality (MModality)** $\uparrow$ 
 	- MModality measures the generation diversity conditioned on the same text. Specifically, MModality represents the average variance for a single text prompt by computing Euclidean distances of 10 generated pairs of motions.
-- **Diversity**\rightarrow$ i.e., closer to real motion is better
+- **Diversity** $\rightarrow$ i.e., closer to real motion is better
 	- Diversity measures the variability and richness of the generated action sequences, which is calculated by averaging Euclidean distances of random samples from 300 pairs of motion.
 
 ### Condition matching
-- **R-Precision**\uparrow$ 
+- **R-Precision** $\uparrow$ 
 	- R-Precision measures the similarity between the text description and the generated motion sequence and indicates the probability that the real text appears in the top-k after sorting.
-- **Multi-Modal Distance (MM Dist)**\downarrow$ 
+- **Multi-Modal Distance (MM Dist)** $\downarrow$ 
 	- MM Dist represents the average Euclidean distance between the motion feature of each generated motion and the text feature of its corresponding text description in the test set.
 
 ## Performance Tables
