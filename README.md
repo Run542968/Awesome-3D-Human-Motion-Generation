@@ -47,12 +47,13 @@ Notably! The symbol of 'o-' and 'u-' in **Code Link** indicate the official and 
 - Please note, [`[Seq2Seq]`](#1001), [`[Language2Pose]`](#1002), [`[Text2Gesture]`](#1003), [`[Hier]`](#1004) and [`[TEMOS]`](#1005) don't report results in terms of above metrics. 
 	- The [`[Seq2Seq]`](#1001), [`[Language2Pose]`](#1002), [`[Text2Gesture]`](#1003) and [`[Hier]`](#1004)'s results come from [`[TM2T]`](#1006).
 	- The [`[TEMOS]`](#1005)'s come from [`[MMM]`](#1017).
-- $\dagger$ denotes different evaluator is used.
+- &dagger;: denotes a different evaluator is used.
 ### Humanml3D
 
 | ID  | Year | Venue | <div style="width: 90pt">Model<br/> (or Authors)</div>  | <div style="width: 60pt">R Precision<br/> Top-1 ↑</div> | <div style="width: 60pt">R Precision<br/> Top-2 ↑</div> | <div style="width: 60pt">R Preciion<br/> Top-3 ↑</div> | <div style="width: 60pt">FID ↓ </div> | <div style="width: 60pt">MM Dist ↓</div> | <div style="width: 90pt">MultiModality ↑</div> | <div style="width: 70pt">Diversity →</div> | <div style="width: 70pt">code</div> | - | 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| - | - | - | [Real Motion (GT)](#1006) | $0.511^{\pm.003}$ | $0.703^{\pm.003}$ | $0.797^{\pm.002}$ | $0.002^{\pm.000}$ | $2.974^{\pm.008}$ | - | $9.503^{\pm.065}$ | - | - |
+| - | - | - | [Real Motion](#1006) | $0.511^{\pm.003}$ | $0.703^{\pm.003}$ | $0.797^{\pm.002}$ | $0.002^{\pm.000}$ | $2.974^{\pm.008}$ | - | $9.503^{\pm.065}$ | - | - |
+| - | - | - | [Real Motion &dagger;](#10016) | $0.539^{\pm.004}$ | $0.721^{\pm.003}$ | $0.810^{\pm.003}$ | $0.001^{\pm.000}$ | $1.462^{\pm.006}$ | - | $5.298^{\pm.047}$ | - | - |
 | 1 | 2018 | NeurIPS | [Seq2Seq](#1001) | $0.180^{\pm.002}$ | $0.300^{\pm.002}$ | $0.396^{\pm.002}$ | $11.75^{\pm.035}$ | $5.529^{\pm.007}$ | - | $6.223^{\pm.061}$ | [`[u-pytorch]`](https://github.com/chahuja/language2pose) | - |
 | 2 | 2019 | 3DV | [Language2Pose](#1002) | $0.246^{\pm.002}$ | $0.387^{\pm.002}$ | $0.486^{\pm.004}$ | $11.02^{\pm.046}$ | $5.296^{\pm.008}$ | - | $7.676^{\pm.058}$ | [`[o-pytorch]`](https://github.com/chahuja/language2pose) | - |
 | 3 | 2021 | IEEE VR | [Text2Gesture](#1003) | $0.165^{\pm.001}$ | $0.267^{\pm.002}$ | $0.345^{\pm.002}$ | $5.012^{\pm.030}$ | $6.030^{\pm.008}$ | - | $6.409^{\pm.071}$ | [`[o-pytorch]`](https://github.com/UttaranB127/Text2Gestures) | - |
@@ -68,7 +69,7 @@ Notably! The symbol of 'o-' and 'u-' in **Code Link** indicate the official and 
 | 13 | 2023 | ICCV | [M2DM](#1013) | $0.497^{\pm.003}$ | $0.682^{\pm.002}$ | $0.763^{\pm.003}$ | $0.352^{\pm.005}$ | $3.134^{\pm.010}$ | $3.587^{\pm.072}$ | $9.926^{\pm.073}$ | - | - |
 | 14 | 2023 | ICCV | [AttT2M](#1014) | $0.499^{\pm.003}$ | $0.690^{\pm.002}$ | $0.786^{\pm.002}$ | $0.112^{\pm.006}$ | $3.038^{\pm.007}$ | $2.452^{\pm.051}$ | $9.700^{\pm.090}$ | [`[o-pytorch]`](https://github.com/ZcyMonkey/AttT2M) | - |
 | 15 | 2023 | NeurIPS | [MotionGPT](#1015) | $0.492^{\pm.003}$ | $0.681^{\pm.003}$ | $0.778^{\pm.002}$ | $0.232^{\pm.008}$ | $3.096^{\pm.008}$ | $2.008^{\pm.084}$ | $9.528^{\pm.071}$ | [`[o-pytorch]`](https://github.com/OpenMotionLab/MotionGPT) | - |
-| 16 | 2023 | NeurIPS | [ReMoDiffuse $^\dagger$](#1016) | $0.510^{\pm.005}$ | $0.698^{\pm.006}$ | $0.795^{\pm.004}$ | $0.103^{\pm.004}$ | $2.974^{\pm.016}$ | $1.795^{\pm.043}$ | $9.018^{\pm.075}$ | [`[o-pytorch]`](https://github.com/mingyuan-zhang/ReMoDiffuse) | - |
+| 16 | 2023 | NeurIPS | [ReMoDiffuse &dagger;](#1016) | $0.510^{\pm.005}$ | $0.698^{\pm.006}$ | $0.795^{\pm.004}$ | $0.103^{\pm.004}$ | $2.974^{\pm.016}$ | $1.795^{\pm.043}$ | $9.018^{\pm.075}$ | [`[o-pytorch]`](https://github.com/mingyuan-zhang/ReMoDiffuse) | - |
 | 17 | 2024 | CVPR | [MMM](#1017) | $0.504^{\pm.003}$ | $0.696^{\pm.003}$ | $0.794^{\pm.002}$ | $0.080^{\pm.003}$ | $2.998^{\pm.007}$ | $1.164^{\pm.041}$ | $9.411^{\pm.058}$ | [`[o-pytorch]`](https://github.com/exitudio/MMM/) | - |
 | 18 | 2024 | CVPR | [MoMask](#1018) | $0.521^{\pm.002}$ | $0.713^{\pm.002}$ | $0.807^{\pm.002}$ | $0.045^{\pm.002}$ | $2.958^{\pm.008}$ | $1.241^{\pm.040}$ | - | [`[o-pytorch]`](https://github.com/EricGuo5513/momask-codes) | - |
 
@@ -79,6 +80,7 @@ Notably! The symbol of 'o-' and 'u-' in **Code Link** indicate the official and 
 | ID  | Year | Venue | <div style="width: 90pt">Model<br/> (or Authors)</div>  | <div style="width: 60pt">R Precision<br/> Top-1 ↑</div> | <div style="width: 60pt">R Precision<br/> Top-2 ↑</div> | <div style="width: 60pt">R Preciion<br/> Top-3 ↑</div> | <div style="width: 60pt">FID ↓ </div> | <div style="width: 60pt">MM Dist ↓</div> | <div style="width: 90pt">MultiModality ↑</div> | <div style="width: 70pt">Diversity →</div> | <div style="width: 70pt">code</div> | - | 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | - | - | - | [Real Motion (GT)](#1006) | $0.424^{\pm.005}$ | $0.649^{\pm.006}$ | $0.779^{\pm.006}$ | $0.031^{\pm.004}$ | $2.788^{\pm.012}$ | - | $11.08^{\pm.097}$ | - | - |
+| - | - | - | [Real Motion &dagger;](#10016) | $0.475^{\pm.006}$ | $0.690^{\pm.004}$ | $0.791^{\pm.005}$ | $0.002^{\pm.000}$ | $1.337^{\pm.012}$ | - | $6.371^{\pm.058}$ | - | - |
 | 1 | 2018 | NeurIPS | [Seq2Seq](#1001) | $0.103^{\pm.003}$ | $0.178^{\pm.005}$ | $0.241^{\pm.006}$ | $24.86^{\pm.348}$ | $7.960^{\pm.031}$ | - | $6.744^{\pm.106}$ | [`[u-pytorch]`](https://github.com/chahuja/language2pose) | - |
 | 2 | 2019 | 3DV | [Language2Pose](#1002) | $0.221^{\pm.005}$ | $0.373^{\pm.004}$ | $0.483^{\pm.005}$ | $6.545^{\pm.072}$ | $5.147^{\pm.030}$ | - | $9.073^{\pm.100}$ | [`[o-pytorch]`](https://github.com/chahuja/language2pose) | - |
 | 3 | 2021 | IEEE VR | [Text2Gesture](#1003) | $0.156^{\pm.004}$ | $0.255^{\pm.004}$ | $0.338^{\pm.005}$ | $12.12^{\pm.183}$ | $6.964^{\pm.029}$ | - | $9.334^{\pm.079}$ | [`[o-pytorch]`](https://github.com/UttaranB127/Text2Gestures) | - |
@@ -94,7 +96,7 @@ Notably! The symbol of 'o-' and 'u-' in **Code Link** indicate the official and 
 | 13 | 2023 | ICCV | [M2DM](#1013) | $0.416^{\pm.004}$ | $0.628^{\pm.004}$ | $0.743^{\pm.004}$ | $0.515^{\pm.029}$ | $3.015^{\pm.017}$ | $3.325^{\pm.370}$ | $11.417^{\pm.970}$ | - | - |
 | 14 | 2023 | ICCV | [AttT2M](#1014) | $0.413^{\pm.006}$ | $0.632^{\pm.006}$ | $0.751^{\pm.006}$ | $0.870^{\pm.039}$ | $3.039^{\pm.021}$ | $2.281^{\pm.047}$ | $10.96^{\pm.123}$ | [`[o-pytorch]`](https://github.com/ZcyMonkey/AttT2M) | - |
 | 15 | 2023 | NeurIPS | [MotionGPT](#1015) | $0.366^{\pm.005}$ | $0.558^{\pm.004}$ | $0.680^{\pm.005}$ | $0.510^{\pm.016}$ | $3.527^{\pm.021}$ | $2.328^{\pm.117}$ | $10.35^{\pm.084}$ | [`[o-pytorch]`](https://github.com/OpenMotionLab/MotionGPT) | - |
-| 16 | 2023 | NeurIPS | [ReMoDiffuse $^\dagger$](#1016) | $0.427^{\pm.014}$ | $0.641^{\pm.004}$ | $0.765^{\pm.055}$ | $0.155^{\pm.006}$ | $2.814^{\pm.012}$ | $1.239^{\pm.028}$ | $10.80^{\pm.105}$ | [`[o-pytorch]`](https://github.com/mingyuan-zhang/ReMoDiffuse) | - |
+| 16 | 2023 | NeurIPS | [ReMoDiffuse &dagger;](#1016) | $0.427^{\pm.014}$ | $0.641^{\pm.004}$ | $0.765^{\pm.055}$ | $0.155^{\pm.006}$ | $2.814^{\pm.012}$ | $1.239^{\pm.028}$ | $10.80^{\pm.105}$ | [`[o-pytorch]`](https://github.com/mingyuan-zhang/ReMoDiffuse) | - |
 | 17 | 2024 | CVPR | [MMM](#1017) | $0.381^{\pm.005}$ | $0.590^{\pm.006}$ | $0.718^{\pm.005}$ | $0.429^{\pm.019}$ | $3.146^{\pm.019}$ | $1.105^{\pm.026}$ | $10.633^{\pm.097}$ | [`[o-pytorch]`](https://github.com/exitudio/MMM/) | - |
 | 18 | 2024 | CVPR | [MoMask](#1018) | $0.433^{\pm.007}$ | $0.656^{\pm.005}$ | $0.781^{\pm.005}$ | $0.204^{\pm.011}$ | $2.779^{\pm.022}$ | $1.131^{\pm.043}$ | - | [`[o-pytorch]`](https://github.com/EricGuo5513/momask-codes) | - |
 
@@ -118,7 +120,7 @@ Notably! The symbol of 'o-' and 'u-' in **Code Link** indicate the official and 
 13. <span id = "1013">**[M2DM]**</span> | **ICCV'23** | Priority-Centric Human Motion Generation in Discrete Latent Space | [`[pdf]`](https://arxiv.org/pdf/2308.14480) | - |
 14. <span id = "1014">**[AttT2M]**</span> | **ICCV'23** | AttT2M: Text-Driven Human Motion Generation with Multi-Perspective Attention Mechanism | [`[pdf]`](https://arxiv.org/pdf/2309.00796) | [`[o-pytorch]`](https://github.com/ZcyMonkey/AttT2M) |
 15. <span id = "1015">**[MotionGPT]**</span> | **NeurIPS'23** | MotionGPT: Human Motion as a Foreign Language | [`[pdf]`](https://arxiv.org/pdf/2306.14795) | [`[o-pytorch]`](https://github.com/OpenMotionLab/MotionGPT) |
-16. <span id = "1016">**[ReMoDiffuse]**</span> | **NeurIPS'23** | ReMoDiffuse: Retrieval-Augmented Motion Diffusion Model | [`[pdf]`](https://arxiv.org/pdf/2304.01116) | [`[o-pytorch]`](https://github.com/mingyuan-zhang/ReMoDiffuse) |
+16. <span id = "1016">**[ReMoDiffuse &dagger;]**</span> | **NeurIPS'23** | ReMoDiffuse: Retrieval-Augmented Motion Diffusion Model | [`[pdf]`](https://arxiv.org/pdf/2304.01116) | [`[o-pytorch]`](https://github.com/mingyuan-zhang/ReMoDiffuse) |
 17. <span id = "1017">**[MMM]**</span> | **CVPR'24** | MMM: Generative Masked Motion Model | [`[pdf]`](https://arxiv.org/pdf/2312.03596) | [`[o-pytorch]`](https://github.com/exitudio/MMM/) |
 18. <span id = "1018">**[MoMask]**</span> | **CVPR'24** | MoMask: Generative Masked Modeling of 3D Human Motions | [`[pdf]`](https://arxiv.org/pdf/2312.00063) | [`[o-pytorch]`](https://github.com/EricGuo5513/momask-codes) |
 
