@@ -105,9 +105,8 @@ Notably! The symbol of 'o-' and 'u-' in **Code Link** indicate the official and 
 
 
 
-
-
 ## Paper List
+### Text-to-Motion
 1. <span id = "1001">**[Seq2Seq]**</span> | **NeurIPS'18** | Generating Animated Videos of Human Activities from Natural Language Descriptions | [`[pdf]`](https://nips2018vigil.github.io/static/papers/accepted/9.pdf) | [`[u-pytorch]`](https://github.com/chahuja/language2pose) |
 2. <span id = "1002">**[Language2Pose]**</span> | **3DV'19** | Language2Pose: Natural Language Grounded Pose Forecasting | [`[pdf]`](https://arxiv.org/pdf/1907.01108) | [`[o-pytorch]`](https://github.com/chahuja/language2pose) |
 3. <span id = "1003">**[Text2Gesture]**</span> | **IEEE VR'21** | Text2Gestures: A Transformer-Based Network for Generating Emotive Body Gestures for Virtual Agents | [`[pdf]`](https://arxiv.org/pdf/2101.11101) | [`[o-pytorch]`](https://github.com/UttaranB127/Text2Gestures) |
@@ -129,7 +128,11 @@ Notably! The symbol of 'o-' and 'u-' in **Code Link** indicate the official and 
 19. <span id = "1019">**[MotionLCM]**</span> | **ECCV'24** | MotionLCM: Real-time Controllable Motion Generation via Latent Consistency Model | [`[pdf]`](https://arxiv.org/pdf/2404.19759) | [`[o-pytorch]`](https://github.com/Dai-Wenxun/MotionLCM) |
 20. <span id = "1020">**[Motion Mamba]**</span> | **ECCV'24** | Motion Mamba: Efficient and Long Sequence Motion Generation with Hierarchical and Bidirectional Selective SSM | [`[pdf]`](https://arxiv.org/pdf/2403.07487) | [`[o-pytorch]`](https://github.com/steve-zeyu-zhang/MotionMamba/) |
 
-
+### Spatial Contraints
+1. <span id = "2001">**[GMD]**</span> | **ICCV'23** | Guided motion diffusion for controllable human motion synthesis | [`[pdf]`](https://arxiv.org/pdf/2305.12577) | [`[o-pytorch]`](https://github.com/korrawe/guided-motion-diffusion) |
+2. <span id = "2002">**[PhysDiff]**</span> | **ICCV'23** | PhysDiff: Physics-Guided Human Motion Diffusion Model | [`[pdf]`](https://arxiv.org/pdf/2212.02500) | - |
+3. <span id = "2003">**[PriorMDM]**</span> | **ICLR'24** | Human Motion Diffusion as a Generative Prior | [`[pdf]`](https://arxiv.org/pdf/2303.01418) | [`[o-pytorch]`](https://github.com/priorMDM/priorMDM) |
+4. <span id = "2004">**[OmniControl]**</span> | **ICLR'24** | Omnicontrol: Control any joint at any time for human motion generation | [`[pdf]`](https://arxiv.org/pdf/2310.08580) | [`[o-pytorch]`](https://github.com/neu-vi/omnicontrol) |
 
 
 ## Feedback
