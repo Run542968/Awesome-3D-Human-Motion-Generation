@@ -4,7 +4,7 @@
 
 This repository is built mainly to track mainstream **Text-to-Motion** works, and also contains papers and datasets related to it.
 
-*Last updated: 2024/06/30 (CVPR'24 added)*
+*Last updated: 2024/07/03 (Partial ECCV'24 added)*
 
 ## Content Catalog
 - [Datasets](#Datasets)
@@ -72,6 +72,8 @@ Notably! The symbol of 'o-' and 'u-' in **Code Link** indicate the official and 
 | 16 | 2023 | NeurIPS | [ReMoDiffuse &dagger;](#1016) | $0.510^{\pm.005}$ | $0.698^{\pm.006}$ | $0.795^{\pm.004}$ | $0.103^{\pm.004}$ | $2.974^{\pm.016}$ | $1.795^{\pm.043}$ | $9.018^{\pm.075}$ | [`[o-pytorch]`](https://github.com/mingyuan-zhang/ReMoDiffuse) | - |
 | 17 | 2024 | CVPR | [MMM](#1017) | $0.504^{\pm.003}$ | $0.696^{\pm.003}$ | $0.794^{\pm.002}$ | $0.080^{\pm.003}$ | $2.998^{\pm.007}$ | $1.164^{\pm.041}$ | $9.411^{\pm.058}$ | [`[o-pytorch]`](https://github.com/exitudio/MMM/) | - |
 | 18 | 2024 | CVPR | [MoMask](#1018) | $0.521^{\pm.002}$ | $0.713^{\pm.002}$ | $0.807^{\pm.002}$ | $0.045^{\pm.002}$ | $2.958^{\pm.008}$ | $1.241^{\pm.040}$ | - | [`[o-pytorch]`](https://github.com/EricGuo5513/momask-codes) | - |
+| 19 | 2024 | ECCV | [MotionLCM](#1019) | $0.502^{\pm.003}$ | $0.698^{\pm.002}$ | $0.798^{\pm.002}$ | $0.304^{\pm.012}$ | $3.012^{\pm.007}$ | $2.259^{\pm.092}$ | $9.607^{\pm.066}$ | [`[o-pytorch]`](https://github.com/Dai-Wenxun/MotionLCM) | - |
+| 20 | 2024 | ECCV | [Motion Mamba](#1020) | $0.502^{\pm.003}$ | $0.693^{\pm.002}$ | $0.792^{\pm.002}$ | $0.281^{\pm.009}$ | $3.060^{\pm.058}$ | $2.294^{\pm.058}$ | $9.871^{\pm.084}$ | [`[o-pytorch]`](https://github.com/steve-zeyu-zhang/MotionMamba/) | - |
 
 
 
@@ -99,6 +101,7 @@ Notably! The symbol of 'o-' and 'u-' in **Code Link** indicate the official and 
 | 16 | 2023 | NeurIPS | [ReMoDiffuse &dagger;](#1016) | $0.427^{\pm.014}$ | $0.641^{\pm.004}$ | $0.765^{\pm.055}$ | $0.155^{\pm.006}$ | $2.814^{\pm.012}$ | $1.239^{\pm.028}$ | $10.80^{\pm.105}$ | [`[o-pytorch]`](https://github.com/mingyuan-zhang/ReMoDiffuse) | - |
 | 17 | 2024 | CVPR | [MMM](#1017) | $0.381^{\pm.005}$ | $0.590^{\pm.006}$ | $0.718^{\pm.005}$ | $0.429^{\pm.019}$ | $3.146^{\pm.019}$ | $1.105^{\pm.026}$ | $10.633^{\pm.097}$ | [`[o-pytorch]`](https://github.com/exitudio/MMM/) | - |
 | 18 | 2024 | CVPR | [MoMask](#1018) | $0.433^{\pm.007}$ | $0.656^{\pm.005}$ | $0.781^{\pm.005}$ | $0.204^{\pm.011}$ | $2.779^{\pm.022}$ | $1.131^{\pm.043}$ | - | [`[o-pytorch]`](https://github.com/EricGuo5513/momask-codes) | - |
+| 19 | 2024 | ECCV | [Motion Mamba](#1020) | $0.419^{\pm.006}$ | $0.645^{\pm.005}$ | $0.765^{\pm.006}$ | $0.307^{\pm.041}$ | $3.021^{\pm.025}$ | $1.678^{\pm.064}$ | $11.02^{\pm.098}$ | [`[o-pytorch]`](https://github.com/steve-zeyu-zhang/MotionMamba/) | - |
 
 
 
@@ -123,6 +126,8 @@ Notably! The symbol of 'o-' and 'u-' in **Code Link** indicate the official and 
 16. <span id = "1016">**[ReMoDiffuse &dagger;]**</span> | **NeurIPS'23** | ReMoDiffuse: Retrieval-Augmented Motion Diffusion Model | [`[pdf]`](https://arxiv.org/pdf/2304.01116) | [`[o-pytorch]`](https://github.com/mingyuan-zhang/ReMoDiffuse) |
 17. <span id = "1017">**[MMM]**</span> | **CVPR'24** | MMM: Generative Masked Motion Model | [`[pdf]`](https://arxiv.org/pdf/2312.03596) | [`[o-pytorch]`](https://github.com/exitudio/MMM/) |
 18. <span id = "1018">**[MoMask]**</span> | **CVPR'24** | MoMask: Generative Masked Modeling of 3D Human Motions | [`[pdf]`](https://arxiv.org/pdf/2312.00063) | [`[o-pytorch]`](https://github.com/EricGuo5513/momask-codes) |
+19. <span id = "1019">**[MotionLCM]**</span> | **ECCV'24** | MotionLCM: Real-time Controllable Motion Generation via Latent Consistency Model | [`[pdf]`](https://arxiv.org/pdf/2404.19759) | [`[o-pytorch]`](https://github.com/Dai-Wenxun/MotionLCM) |
+20. <span id = "1020">**[Motion Mamba]**</span> | **ECCV'24** | Motion Mamba: Efficient and Long Sequence Motion Generation with Hierarchical and Bidirectional Selective SSM | [`[pdf]`](https://arxiv.org/pdf/2403.07487) | [`[o-pytorch]`](https://github.com/steve-zeyu-zhang/MotionMamba/) |
 
 
 
