@@ -4,7 +4,7 @@
 
 This repository is built mainly to track mainstream **Text-to-Motion** works, and also contains papers and datasets related to it.
 
-*Last updated: 2024/07/03 (Partial ECCV'24 added)*
+*Last updated: 2024/07/24 (Partial ECCV'24 added)*
 
 ## Content Catalog
 - [Datasets](#Datasets)
@@ -13,6 +13,8 @@ This repository is built mainly to track mainstream **Text-to-Motion** works, an
 	- [Humanml3D](#humanml3d)
 	- [KIT-ML](#kit-ml)
 - [Paper List](#paper-list)
+	- [Text-to-Motion](#text-to-motion-1)
+	- [Motion Control](#motion-control-eg-spatial-contraints)
 - [Feedback](#feedback)
 
 ## Datasets
@@ -74,6 +76,7 @@ Notably! The symbol of 'o-' and 'u-' in **Code Link** indicate the official and 
 | 18 | 2024 | CVPR | [MoMask](#1018) | $0.521^{\pm.002}$ | $0.713^{\pm.002}$ | $0.807^{\pm.002}$ | $0.045^{\pm.002}$ | $2.958^{\pm.008}$ | $1.241^{\pm.040}$ | - | [`[o-pytorch]`](https://github.com/EricGuo5513/momask-codes) | - |
 | 19 | 2024 | ECCV | [MotionLCM](#1019) | $0.502^{\pm.003}$ | $0.698^{\pm.002}$ | $0.798^{\pm.002}$ | $0.304^{\pm.012}$ | $3.012^{\pm.007}$ | $2.259^{\pm.092}$ | $9.607^{\pm.066}$ | [`[o-pytorch]`](https://github.com/Dai-Wenxun/MotionLCM) | - |
 | 20 | 2024 | ECCV | [Motion Mamba](#1020) | $0.502^{\pm.003}$ | $0.693^{\pm.002}$ | $0.792^{\pm.002}$ | $0.281^{\pm.009}$ | $3.060^{\pm.058}$ | $2.294^{\pm.058}$ | $9.871^{\pm.084}$ | [`[o-pytorch]`](https://github.com/steve-zeyu-zhang/MotionMamba/) | - |
+| 21 | 2024 | ECCV | [BAMM](#1021) | $0.525^{\pm.002}$ | $0.720^{\pm.003}$ | $0.814^{\pm.003}$ | $0.055^{\pm.002}$ | $2.919^{\pm.008}$ | $1.687^{\pm.051}$ | $9.717^{\pm.089}$ | - | - |
 
 
 
@@ -102,6 +105,7 @@ Notably! The symbol of 'o-' and 'u-' in **Code Link** indicate the official and 
 | 17 | 2024 | CVPR | [MMM](#1017) | $0.381^{\pm.005}$ | $0.590^{\pm.006}$ | $0.718^{\pm.005}$ | $0.429^{\pm.019}$ | $3.146^{\pm.019}$ | $1.105^{\pm.026}$ | $10.633^{\pm.097}$ | [`[o-pytorch]`](https://github.com/exitudio/MMM/) | - |
 | 18 | 2024 | CVPR | [MoMask](#1018) | $0.433^{\pm.007}$ | $0.656^{\pm.005}$ | $0.781^{\pm.005}$ | $0.204^{\pm.011}$ | $2.779^{\pm.022}$ | $1.131^{\pm.043}$ | - | [`[o-pytorch]`](https://github.com/EricGuo5513/momask-codes) | - |
 | 19 | 2024 | ECCV | [Motion Mamba](#1020) | $0.419^{\pm.006}$ | $0.645^{\pm.005}$ | $0.765^{\pm.006}$ | $0.307^{\pm.041}$ | $3.021^{\pm.025}$ | $1.678^{\pm.064}$ | $11.02^{\pm.098}$ | [`[o-pytorch]`](https://github.com/steve-zeyu-zhang/MotionMamba/) | - |
+| 20 | 2024 | ECCV | [BAMM](#1021) | $0.438^{\pm.009}$ | $0.661^{\pm.009}$ | $0.788^{\pm.005}$ | $0.183^{\pm.013}$ | $2.723^{\pm.026}$ | $1.609^{\pm.065}$ | $11.008^{\pm.098}$ | - | - |
 
 
 
@@ -127,13 +131,14 @@ Notably! The symbol of 'o-' and 'u-' in **Code Link** indicate the official and 
 18. <span id = "1018">**[MoMask]**</span> | **CVPR'24** | MoMask: Generative Masked Modeling of 3D Human Motions | [`[pdf]`](https://arxiv.org/pdf/2312.00063) | [`[o-pytorch]`](https://github.com/EricGuo5513/momask-codes) |
 19. <span id = "1019">**[MotionLCM]**</span> | **ECCV'24** | MotionLCM: Real-time Controllable Motion Generation via Latent Consistency Model | [`[pdf]`](https://arxiv.org/pdf/2404.19759) | [`[o-pytorch]`](https://github.com/Dai-Wenxun/MotionLCM) |
 20. <span id = "1020">**[Motion Mamba]**</span> | **ECCV'24** | Motion Mamba: Efficient and Long Sequence Motion Generation with Hierarchical and Bidirectional Selective SSM | [`[pdf]`](https://arxiv.org/pdf/2403.07487) | [`[o-pytorch]`](https://github.com/steve-zeyu-zhang/MotionMamba/) |
+21. <span id = "1021">**[BAMM]**</span> | **ECCV'24** | BAMM: Bidirectional Autoregressive Motion Model | [`[pdf]`](https://arxiv.org/pdf/2403.19435) | - |
 
-### Spatial Contraints
+### Motion Control (e.g., Spatial Contraints)
 1. <span id = "2001">**[GMD]**</span> | **ICCV'23** | Guided motion diffusion for controllable human motion synthesis | [`[pdf]`](https://arxiv.org/pdf/2305.12577) | [`[o-pytorch]`](https://github.com/korrawe/guided-motion-diffusion) |
 2. <span id = "2002">**[PhysDiff]**</span> | **ICCV'23** | PhysDiff: Physics-Guided Human Motion Diffusion Model | [`[pdf]`](https://arxiv.org/pdf/2212.02500) | - |
 3. <span id = "2003">**[PriorMDM]**</span> | **ICLR'24** | Human Motion Diffusion as a Generative Prior | [`[pdf]`](https://arxiv.org/pdf/2303.01418) | [`[o-pytorch]`](https://github.com/priorMDM/priorMDM) |
 4. <span id = "2004">**[OmniControl]**</span> | **ICLR'24** | Omnicontrol: Control any joint at any time for human motion generation | [`[pdf]`](https://arxiv.org/pdf/2310.08580) | [`[o-pytorch]`](https://github.com/neu-vi/omnicontrol) |
-
+5. <span id = "2005">**[MotionLCM]**</span> | **ECCV'24** | MotionLCM: Real-time Controllable Motion Generation via Latent Consistency Model | [`[pdf]`](https://arxiv.org/pdf/2404.19759) | [`[o-pytorch]`](https://github.com/Dai-Wenxun/MotionLCM) |
 
 ## Feedback
 
