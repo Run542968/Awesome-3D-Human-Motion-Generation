@@ -132,6 +132,7 @@ Notably! The symbol of 'o-' and 'u-' in **Code Link** indicate the official and 
 19. <span id = "1019">**[MotionLCM]**</span> | **ECCV'24** | MotionLCM: Real-time Controllable Motion Generation via Latent Consistency Model | [`[pdf]`](https://arxiv.org/pdf/2404.19759) | [`[o-pytorch]`](https://github.com/Dai-Wenxun/MotionLCM) |
 20. <span id = "1020">**[Motion Mamba]**</span> | **ECCV'24** | Motion Mamba: Efficient and Long Sequence Motion Generation with Hierarchical and Bidirectional Selective SSM | [`[pdf]`](https://arxiv.org/pdf/2403.07487) | [`[o-pytorch]`](https://github.com/steve-zeyu-zhang/MotionMamba/) |
 21. <span id = "1021">**[BAMM]**</span> | **ECCV'24** | BAMM: Bidirectional Autoregressive Motion Model | [`[pdf]`](https://arxiv.org/pdf/2403.19435) | - |
+22. <span id = "1021">**[TIMotion]**</span> | **CVPR'25** | TIMotion: Temporal and Interactive Framework for Efficient Human-Human Motion Generation | [`[pdf]`](https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_TIMotion_Temporal_and_Interactive_Framework_for_Efficient_Human-Human_Motion_Generation_CVPR_2025_paper.pdf) | [`[o-pytorch]`](https://github.com/AIGC-Explorer/TIMotion) |
 
 ### Motion Control (e.g., Spatial Contraints)
 1. <span id = "2001">**[GMD]**</span> | **ICCV'23** | Guided motion diffusion for controllable human motion synthesis | [`[pdf]`](https://arxiv.org/pdf/2305.12577) | [`[o-pytorch]`](https://github.com/korrawe/guided-motion-diffusion) |
@@ -139,6 +140,7 @@ Notably! The symbol of 'o-' and 'u-' in **Code Link** indicate the official and 
 3. <span id = "2003">**[PriorMDM]**</span> | **ICLR'24** | Human Motion Diffusion as a Generative Prior | [`[pdf]`](https://arxiv.org/pdf/2303.01418) | [`[o-pytorch]`](https://github.com/priorMDM/priorMDM) |
 4. <span id = "2004">**[OmniControl]**</span> | **ICLR'24** | Omnicontrol: Control any joint at any time for human motion generation | [`[pdf]`](https://arxiv.org/pdf/2310.08580) | [`[o-pytorch]`](https://github.com/neu-vi/omnicontrol) |
 5. <span id = "2005">**[MotionLCM]**</span> | **ECCV'24** | MotionLCM: Real-time Controllable Motion Generation via Latent Consistency Model | [`[pdf]`](https://arxiv.org/pdf/2404.19759) | [`[o-pytorch]`](https://github.com/Dai-Wenxun/MotionLCM) |
+6. <span id = "2006">**[MARRS]**</span> | **TVCG'26** | MARRS: Masked Autoregressive Unit-based Reaction Synthesis | [`[pdf]`](https://arxiv.org/abs/2505.11334) | [`[Project]`](https://aigc-explorer.github.io/MARRS/) |
 
 ## Feedback
 
